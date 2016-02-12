@@ -1,0 +1,66 @@
+[ng-drag] {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding-top: 11px;
+    display: inline-block;
+    cursor: move;
+    border: 0;
+}
+.draggable-objects li {
+    float: left;
+    margin: 2px;
+    border: 1px solid;
+    display: block;
+}
+[ng-drop] {
+    border: 1px solid;
+    text-align: center;
+    width: 150px;
+    height: 80px;
+    display: block;
+    margin: 5px;
+    float: left;
+    position: relative;
+    padding-top: 25px;
+    font-size: 24px;
+}
+[ng-drop] input {
+    border: 0;
+}
+[ng-drop] div {
+    position: relative;
+    z-index: 2;
+}
+.hresult {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    overflow: hidden;
+    margin: 20px 5px;
+    padding-top: 15px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.vresult {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    overflow: hidden;
+    margin: 45px 55px;
+    padding-top: 15px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.green {
+    background: green;
+    color: #fff;
+}
+.white {
+    background: white;
+}
+.grey {
+    background: #ccc;
+}
